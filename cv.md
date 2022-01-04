@@ -3,7 +3,7 @@
 
 ## junior frontend developer
 
-
+![mountains](avatar.png "Пейзаж с горами")
 ```javascript
 const func = (num) => {
   if (num > 0) {
