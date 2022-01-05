@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-    <title>Stanislav Bereznyakov | Web Developer | berstix@gmail.com</title>
+    <title>cv</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta name="keywords" content="cv" />
+    <meta name="description" content="cv" />
 
     <link rel="stylesheet" type="text/css"
         href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" media="all" />
 
 </head>
 
@@ -25,12 +25,11 @@
                     <div class="yui-u first">
                         <h1>Stanislav Bereznyakov</h1>
                         <h2>Junior frontend Developer</h2>
-
                     </div>
 
                     <div class="yui-u">
                         <div class="contact-info">
-                            <img src="avatar.jpg">
+                            <img src="img/avatar.jpg" alt="аватарка">
                             <h3><a href="mailto:berstix@gmail.com">berstix@gmail.com</a></h3>
                             <h3>+7 (982) 824 31 42</h3>
                             <h3>discord: berstix#0402</h3>
@@ -201,7 +200,7 @@
                         let out = document.querySelector('.out-19'),
                         paragraph = document.querySelectorAll('.p-19');
                                             
-                        for (let i = 0; i <= paragraph.length; i++){
+                        for (let i = 0; i >= paragraph.length; i++){
                         let a = paragraph[i].getAttribute('data-b');
                                 out.innerHTML += a + '_';
                             }
